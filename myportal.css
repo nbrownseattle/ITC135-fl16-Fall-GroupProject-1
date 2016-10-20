@@ -1,0 +1,100 @@
+/* My portal page styles */
+/* RGB = 00 00 00 (cccccc)  i.e. Blue #0000ff Yellow #ffff00*/
+
+
+/*html {
+    background-color: #ffcc80;
+}*/
+
+body {
+    width:80%;
+    margin:auto;
+    font-family:'Slabo 27px', serif;
+    padding: 0.5em;
+    
+}
+ul { 
+    list-style-type: "✴";
+     
+    }
+
+li {
+    margin-bottom: 0.3em 
+    }
+
+
+
+footer, h1 {
+    text-align:center;
+    padding: 0.1em;
+    width:auto;
+}
+
+footer {
+    margin-top: 3em;
+    padding: 1.2em;
+    background: #000;
+    font-family: "Fjalla One", Verdana, Geneva, sans-serif;
+    color:aliceblue;
+    font-size: 0.95em;
+    text-transform: uppercase;
+}
+
+.copyright{
+    text-align: center;
+    color: #FFF;
+}
+
+
+img {
+    display:block;
+    margin:0 auto;
+}
+
+/* DESKTOP */
+@media all and (min-width:1280px) {
+    body {
+       background-color: #ffcc80;
+        #min-height:800px;
+       width:90%;
+    }
+    
+    img.tablet {display:none;}
+    img.phone {display:none;}
+    img.desktop {
+        float:center;
+        width:50%;
+    }
+}
+
+/* TABLET */
+@media all and (min-width:481px) and (max-width:1279px) {
+    body {
+        background-color: #f9fbe7;
+        width:100%;
+        image-orientation: 90deg;
+    }
+    
+    img.desktop {display:none;}
+    img.phone {display:none;}
+    img.tablet{
+        float:center;
+        width:50%;
+    }
+}
+
+/* PHONE */
+@media all and (max-width:480px) {
+    body {
+        background-color: #e1f5fe;
+        width:100%;
+    }    
+    
+    img.desktop {display:none;}
+    img.tablet {display:none;}
+    img.phone {
+        float:Center;
+        width:50%;
+        image-orientation: 90deg;
+    }
+}
