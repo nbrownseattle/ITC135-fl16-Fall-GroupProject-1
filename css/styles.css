@@ -1,0 +1,276 @@
+
+* {
+	padding:0;
+	margin:0;	
+}
+
+body {
+	background-color:#fff;
+	/*background-color:#fff;*/
+	
+}
+
+body#home ul.sub-nav,
+body#about ul.sub-nav,
+body#resources ul.sub-nav,
+body#contact ul.sub-nav {
+display:none;	
+	
+}
+
+body#home nav li:nth-child(1),
+body#photography nav li:nth-child(2),
+body#about nav li:nth-child(3),
+body#resources nav li:nth-child(4), 
+body#contact nav li:nth-child(5) {
+font-weight:bold;	
+
+}
+	
+body#home nav li ul.sub-nav li,
+body#photography nav li ul.sub-nav li {
+font-weight:normal;
+}
+
+
+div#wrapper {
+	width:940px;
+	margin:20px auto;	
+}
+
+header {
+	height:100px;
+	margin-bottom:10px;
+	/*background-color:#c8bcac;*/
+}
+
+div#container1 {
+	height:100px;
+	float:left;
+}
+
+
+div#container2 {
+	float:right;
+	width:720px;
+	background-color:#faebd7;
+	padding-top:25px;
+	
+}
+
+nav li {
+	width:18%;
+	float:left;
+	list-style-type:none;
+	text-align:center;
+	line-height:1.5;
+	
+}
+
+a {
+	text-decoration:none;
+	/*display:block;*/
+	color:#000;		
+}
+
+ul.sub-nav li {
+width:16%;
+float:left;
+list-style-type:none;
+text-align:center;
+line-height:1.5;
+}
+
+
+ul.sub-nav  {
+width:55%;
+position:absolute;
+top:70px;
+left:480px;
+z-index:1;
+}
+
+#logo {
+	height:100px;
+	
+}
+
+main#page1 {
+	background-color:#7d756b;	
+	width:940px;
+	border-top:2px #000 solid;
+	border-left:2px #000 solid;
+	border-right:2px #000 solid;
+	border-bottom:2px #000 solid;
+	/*height:400px;*/ 
+}
+
+
+div#banner {
+	margin-left:145px;
+	margin-right:145px;
+	padding-bottom:20px;
+	padding-top:20px;	
+}
+
+/*styles for the photo pages*/
+
+div#inner {
+	margin-top:75x;
+	margin-bottom:50px;
+	/*padding-top:20px;*/
+	/*padding-bottom:20px;*/
+	padding-left:20px;
+	
+}
+
+/*about page styles*/
+
+main#bio {
+	/*width:540px;*/
+	float:left;
+	margin-bottom:20px;
+	
+
+}
+
+aside#inspiration {
+	width:375px;
+	/*background-color:yellow;*/
+	float:right;
+	height:365px;
+	border-left:1px dotted #666;
+	border-right:1px dotted #666;
+	padding-right:20px;
+	padding-left:20px;
+	margin-bottom:20px;
+}
+
+/*styles for the contact page*/
+
+
+main#info {
+	/*background-color:pink;*/
+	width:540px;
+	float:left;
+	/*height:400px;*/
+	margin-top:1.1em;
+	margin-right:10px;
+	
+}
+
+/* styles for my contact page*/
+
+aside#hello {
+	width:340px;
+	float:right;
+	height:365px;
+	padding-right:20px;
+	padding-left:20px;
+	margin-bottom:20px;
+	margin-top:23px;
+	border-radius:25px;
+	border:3px solid #7d756b;
+}
+
+/*styles for the resources page*/
+main#links {
+	width:520px;
+	float:left;
+	height:400px;
+	margin-top:1.0em;
+	padding:left:10px;
+	font-size:1em;
+}
+
+
+
+img.left {
+	max-width:100%;
+}
+
+p {
+	line-height:1.5;
+}
+
+h2 {
+	padding-bottom:5px;
+	padding-top:5px;
+	
+}
+
+fieldset {
+	padding:10px;
+	border:3px solid #7d756b;
+	border-radius:10px;
+	margin-bottom:20px;
+}
+
+label {
+	display:block; 
+	margin-top:10px;
+	font-size:12px;	
+}
+
+input {
+	width:98%;
+	margin-bottom:8px;	
+}
+
+
+input[type=submit] {
+	width:33%;
+	float:right;
+}
+
+input[type=radio],
+[type=checkbox] {
+	width:auto;
+	height:auto;
+	margin:0 5px 0 10px;	
+}
+
+textarea {
+	width:98%;
+	margin-bottom:5px;
+}
+
+.last {
+	margin-bottom:12px;
+}
+
+select {
+	margin-bottom:12px;
+	background:#dcdcdc;
+	padding:5px;
+	font-size:12px;
+}
+
+legend {
+	font-size:1.1em;
+	font-weight:bold;
+	font-style:italic;
+	background:#00ced6;
+	border-radius:5px;
+}
+
+
+
+footer {
+	height:50px;
+	background-color:#faebd7;
+	line-height:50px;
+	clear:both; 
+	/*border-top:2px #000 solid;*/
+	margin-bottom:20px;	
+}
+
+footer li {
+	list-style:none;
+	float:left;
+	width:33.3%;
+	text-align:center;
+	font-size:.8em;
+	color:#000;	
+}
+
