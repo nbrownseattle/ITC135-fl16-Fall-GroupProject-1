@@ -10,15 +10,48 @@
    <title>HNM Eats Home Page</title>
    <script src="modernizr-1.5.js"></script>
    <link href="css/styles.css" type="text/css" rel="stylesheet">
+   <link href="css/blueberry.css" rel="stylesheet" type="text/css">
   </head>
 
    <body>
-      <header>
-          <h1><img src="logo.png">TITLE GOES HERE. POSSIBLY NAVIGATION</h1>
-      </header>
+      <!--javascript for blueberry-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="js/jquery.blueberry.js"></script>
 
+    <script>
+    $(window).load(function() {
+	    $('.blueberry').blueberry();
+    });
+    </script>
+      
+      <header>
+        <div id="container1">
+		    <img id="logo" src="logo.png" alt="HNM Eats">
+	    </div>
+
+	<div id="container2">
+		<nav>
+			<ul>
+			    <li><a href="index.html" >HOME</a></li>
+			    <li><a href="heetae.html">Heetae's Page</a></li>
+			    <li><a href="nicole.html">Nicole's Page</a></li>
+			    <li><a href="mollymoons.html">MOLLY MOON'S</a></li>
+			    <li><a href="about.html">ABOUT US</a></li>
+			</ul>
+		</nav>
+	</div>
+      </header>
+      
       <section>
-          <p align="center">Insert Lightbox Code Here.</p>
+          <div id="banner">
+            <div class="blueberry">
+              <ul class="slides">
+                <li><img src="logo.png" alt="Image1"/></li>
+                <li><img src="logo.png" alt="Image2" /></li>
+                <li><img src="logo.png" alt="Image3"/></li>
+              </ul>
+            </div>
+          </div>
       </section> 
       
        <section>
