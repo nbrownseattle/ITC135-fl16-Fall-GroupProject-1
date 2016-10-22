@@ -10,29 +10,6 @@ body {
 	
 }
 
-body#home ul.sub-nav,
-body#about ul.sub-nav,
-body#resources ul.sub-nav,
-body#contact ul.sub-nav {
-display:none;	
-	
-}
-
-body#home nav li:nth-child(1),
-body#photography nav li:nth-child(2),
-body#about nav li:nth-child(3),
-body#resources nav li:nth-child(4), 
-body#contact nav li:nth-child(5) {
-font-weight:bold;	
-
-}
-	
-body#home nav li ul.sub-nav li,
-body#photography nav li ul.sub-nav li {
-font-weight:normal;
-}
-
-
 div#wrapper {
 	width:940px;
 	margin:20px auto;	
@@ -53,7 +30,7 @@ div#container1 {
 div#container2 {
 	float:right;
 	width:720px;
-	background-color:#faebd7;
+	background-color:#fff;
 	padding-top:25px;
 	
 }
@@ -71,23 +48,6 @@ a {
 	text-decoration:none;
 	/*display:block;*/
 	color:#000;		
-}
-
-ul.sub-nav li {
-width:16%;
-float:left;
-list-style-type:none;
-text-align:center;
-line-height:1.5;
-}
-
-
-ul.sub-nav  {
-width:55%;
-position:absolute;
-top:70px;
-left:480px;
-z-index:1;
 }
 
 #logo {
@@ -258,7 +218,7 @@ legend {
 
 footer {
 	height:50px;
-	background-color:#faebd7;
+	background-color:#008B8B;
 	line-height:50px;
 	clear:both; 
 	/*border-top:2px #000 solid;*/
