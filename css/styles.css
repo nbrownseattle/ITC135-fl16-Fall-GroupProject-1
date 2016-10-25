@@ -24,8 +24,7 @@ header {
 
 div#container1 {
 	height:100px;
-	float:left;
-	
+	float:left;	
 }
 
 
@@ -37,6 +36,12 @@ div#container2 {
 	padding-top:25px;
 	border-bottom:2px #D3D3D3 solid;
 	
+}
+
+div#blueberry {
+    float:center;
+    display: block;
+    width:500px
 }
 
 nav li {
@@ -76,8 +81,11 @@ main#bio {
 	#margin-bottom:20px;
 }
 
+
+
+
 aside#review {
-	width:630px;
+	width:540px;
 	/*background-color:yellow;*/
 	float:right;
 	height:580px;
