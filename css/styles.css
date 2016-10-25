@@ -1,12 +1,13 @@
 
+/*style sheet for hnm eats*/
 * {
 	padding:0;
 	margin:0;	
 }
 
 body {
-	background-color:#fff;
-	/*background-color:#fff;*/
+	/*background-color:#faebd7;*/
+	 background-color:#fff;
 	
 }
 
@@ -24,14 +25,17 @@ header {
 div#container1 {
 	height:100px;
 	float:left;
+	
 }
 
 
 div#container2 {
 	float:right;
 	width:720px;
+	/*background-color:#faebd7;*/
 	background-color:#fff;
 	padding-top:25px;
+	border-bottom:2px #D3D3D3 solid;
 	
 }
 
@@ -47,7 +51,8 @@ nav li {
 a {
 	text-decoration:none;
 	/*display:block;*/
-	color:#000;		
+	 color:#545454;	
+	
 }
 
 #logo {
@@ -56,169 +61,44 @@ a {
 }
 
 main#page1 {
-	background-color:#7d756b;	
+	/*background-color:#7d756b;*/
 	width:940px;
-	border-top:2px #000 solid;
-	border-left:2px #000 solid;
-	border-right:2px #000 solid;
-	border-bottom:2px #000 solid;
+	/*border-top:2px #000 solid;*/
+	/*border-left:2px #000 solid;*/
+	/*border-right:2px #000 solid;*/
+	/*border-bottom:2px #000 solid;*/
 	/*height:400px;*/ 
 }
 
-
-div#banner {
-	margin-left:145px;
-	margin-right:145px;
-	padding-bottom:20px;
-	padding-top:20px;	
-}
-
-/*styles for the photo pages*/
-
-div#inner {
-	margin-top:75x;
-	margin-bottom:50px;
-	/*padding-top:20px;*/
-	/*padding-bottom:20px;*/
-	padding-left:20px;
-	
-}
-
-/*about page styles*/
-
 main#bio {
-	/*width:540px;*/
-	float:left;
-	margin-bottom:20px;
-	
-
+	display:block;
+    float:left;
+	#margin-bottom:20px;
 }
 
 aside#review {
-	width:375px;
+	width:630px;
 	/*background-color:yellow;*/
 	float:right;
-	height:365px;
+	height:580px;
 	border-left:1px dotted #666;
 	border-right:1px dotted #666;
 	padding-right:20px;
 	padding-left:20px;
-	margin-bottom:20px;
-}
-
-/*styles for the contact page*/
-
-
-main#info {
-	/*background-color:pink;*/
-	width:540px;
-	float:left;
-	/*height:400px;*/
-	margin-top:1.1em;
-	margin-right:10px;
-	
-}
-
-/* styles for my contact page*/
-
-aside#hello {
-	width:340px;
-	float:right;
-	height:365px;
-	padding-right:20px;
-	padding-left:20px;
-	margin-bottom:20px;
-	margin-top:23px;
-	border-radius:25px;
-	border:3px solid #7d756b;
-}
-
-/*styles for the resources page*/
-main#links {
-	width:520px;
-	float:left;
-	height:400px;
-	margin-top:1.0em;
-	padding:left:10px;
-	font-size:1em;
-}
-
-
-
-img.left {
-	max-width:100%;
-}
-
-p {
-	line-height:1.5;
-}
-
-h2 {
-	padding-bottom:5px;
-	padding-top:5px;
-	
-}
-
-fieldset {
-	padding:10px;
-	border:3px solid #7d756b;
-	border-radius:10px;
-	margin-bottom:20px;
-}
-
-label {
-	display:block; 
 	margin-top:10px;
-	font-size:12px;	
 }
 
-input {
-	width:98%;
-	margin-bottom:8px;	
+div#banner {
+	/*margin-left:145px;*/
+	/*margin-right:145px;*/
+	margin-top:20px;
+	padding-bottom:20px;
+	padding-top:5px;
 }
-
-
-input[type=submit] {
-	width:33%;
-	float:right;
-}
-
-input[type=radio],
-[type=checkbox] {
-	width:auto;
-	height:auto;
-	margin:0 5px 0 10px;	
-}
-
-textarea {
-	width:98%;
-	margin-bottom:5px;
-}
-
-.last {
-	margin-bottom:12px;
-}
-
-select {
-	margin-bottom:12px;
-	background:#dcdcdc;
-	padding:5px;
-	font-size:12px;
-}
-
-legend {
-	font-size:1.1em;
-	font-weight:bold;
-	font-style:italic;
-	background:#00ced6;
-	border-radius:5px;
-}
-
-
 
 footer {
 	height:50px;
-	background-color:#008B8B;
+	/*background-color:#faebd7;*/
 	line-height:50px;
 	clear:both; 
 	/*border-top:2px #000 solid;*/
@@ -233,4 +113,3 @@ footer li {
 	font-size:.8em;
 	color:#000;	
 }
-
