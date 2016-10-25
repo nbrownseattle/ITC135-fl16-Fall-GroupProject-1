@@ -1,0 +1,7 @@
+<!--Remy Sharp Shim --> 
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script> 
+<![endif]-->
+
+/*placing this script in the head of your html pages to enable html5 to display correctly in older versions of IE*/ 
