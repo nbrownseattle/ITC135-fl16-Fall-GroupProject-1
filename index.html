@@ -1,70 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HNM Eats Home Page</title>
+<!--Remy Sharp Shim --> 
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script> 
+<![endif]-->
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/0EB1A817-8684-4B42-844D-633704880117/main.js" charset="UTF-8"></script></head><body>
+<!--link to my exteral style sheet-->
+<link href="css/styles.css" type="text/css" rel="stylesheet">
 
+<!--link to blueberry css-->
+<link href="css/blueberry.css" rel="stylesheet" type="text/css">
 
+</head>
 
-
- 
-
-
-
-
-
-
-
-
-
-
-<div>
-
-
-
-
+<body>
 
 
-<div>
+<!--javascript for blueberry rotating images-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="js/jquery.blueberry.js"></script>
 
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+<div id="wrapper">
 
-	<div>
-		<img src="http://images/logo1.jpg" alt="Logo">
+<header>
+	<div id="container1">
+		<img id="logo" src="images/logo1.jpg" alt="Logo">
 	</div>
 
 
-	<div>
-		
+	<div id="container2">
+		<nav>
 			<ul>
-			    <li><a href="http://index.html" target="_blank">HOME</a></li>
-			    <li><a href="http://heetae.html" target="_blank">AMANDINE</a></li>
-			    <li><a href="http://nicole.html" target="_blank">Nicole&#39;s Page</a></li>
-			    <li><a href="http://mollymoons.html" target="_blank">MOLLY MOON&#39;S</a></li>
-			    <li><a href="http://about.html" target="_blank">ABOUT US</a></li>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="photography.html">CAFE</a>
+			<li><a href="about.html">RESTAURANT</a></li>
+			<li><a href="resources.html">BAR</a></li>
+			<li><a href="contact.html">ABOUT</a></li>
+			
 			</ul>
-		
+	
+		</nav>
+
 	</div>
+</header>
 
-    
+<div id="banner">
 
-<div>
+<!-- blueberry rotating images -->
 
-
-
-    <div>
-      <ul>
-        <li><img src="http://images/cafe.jpg" alt="Amandine"></li>
-        <li><img src="http://images/restaurant.jpg" alt="Molly Moons"></li>
-		<li><img src="http://images/bar.jpg" alt="Bar"></li>
+    <div class="blueberry">
+      <ul class="slides">
+        <li><img src="images/cafe.jpg" alt="Coffe Shop"/></li>
+        <li><img src="images/restaurant.jpg" alt="Molly Moons" /></li>
+		<li><img src="images/bar.jpg" alt="Bar"/></li>
       </ul>
     </div>
 
-<p align="center">Introduction to our website goes here.</p>
-<p align="center">— Heetae, Nicole, and Megan</p>
 
 </div>
-
-    
-
-         <i align="left">© 2016, Heetae, Nicole, and Megan for ITC 134,
-               All Rights Reserved, <a href="http://validator.w3.org/check?uri=referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">Valid CSS</a></i>  
-      
-    </div>
-</div></body></html>
+</main>
+<footer>
+<ul>
+	<li>Copyrite &copy; 2016</li>
+	<li>All Rights Reserved</li>
+	<li><a href="../index.html">Web Design by Nicole</a></li>
+</ul>
+</footer>
+</body>
+</html>
